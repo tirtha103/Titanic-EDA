@@ -23,6 +23,23 @@ This step helps lay the foundation for building accurate machine learning models
 
 ---
 
+##  How to run locally? 
+
+git clone https://github.com/tirtha103/titanic-eda.git
+cd titanic-eda
+
+# Create and activate virtual environment (Windows)
+python -m venv venv
+venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch the notebook
+jupyter lab notebooks/01_eda_walkthrough.ipynb
+
+---
+
 ##  Folder Structure
 
 ```text
@@ -42,20 +59,5 @@ titanic-eda/
 ├── requirements.txt                      # List of required Python packages
 ├── .gitignore                            
 
----
 
-##  How to run locally? 
-
-git clone https://github.com/tirtha103/titanic-eda.git
-cd titanic-eda
-
-# Create and activate virtual environment (Windows)
-python -m venv venv
-venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch the notebook
-jupyter lab notebooks/01_eda_walkthrough.ipynb
 
