@@ -44,20 +44,24 @@ jupyter lab notebooks/01_eda_walkthrough.ipynb
 
 ```text
 titanic-eda/
+│
 ├── data/
-│   └── titanic_cleaned.csv               # Cleaned dataset (from Task 1)
+│   └── titanic_cleaned.csv                # Cleaned dataset (from Task 1)
 │
 ├── images/
-│   ├── histograms.png                    # Histograms of numeric features
-│   ├── boxplots.png                      # Boxplots for outlier inspection
-│   └── correlation_heatmap.png          # Correlation heatmap
+│   ├── histograms.png                     # Histograms of numeric features
+│   ├── boxplots.png                       # Boxplots for outlier inspection
+│   └── correlation_heatmap.png            # Correlation heatmap
 │
 ├── notebooks/
-│   ├── 01_eda_walkthrough.ipynb          # Jupyter notebook with all EDA steps
-│   └── .ipynb_checkpoints/               # Jupyter autosave folder (ignored by Git)
+│   └── 01_eda_walkthrough.ipynb           # Full EDA notebook
 │
-├── requirements.txt                      # List of required Python packages
-├── .gitignore                            
+├── report/
+│   └── titanic_eda_report.pdf             # Optional PDF report
+│
+├── requirements.txt                       # Python package requirements
+├── LICENSE                                # MIT License
+└── .gitignore                             # Ignored files                           
 
 
 
