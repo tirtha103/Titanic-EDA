@@ -40,14 +40,12 @@ titanic-eda/
 │   └── .ipynb_checkpoints/               # Jupyter autosave folder (ignored by Git)
 │
 ├── requirements.txt                      # List of required Python packages
-├── .gitignore                            # Fi
-
+├── .gitignore                            
 
 ---
 
-##  How to Run Locally
+##  How to run locally? 
 
-```bash
 git clone https://github.com/tirtha103/titanic-eda.git
 cd titanic-eda
 
