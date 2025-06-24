@@ -6,14 +6,14 @@
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 Explore the Titanic dataset using visual and statistical techniques to uncover relationships, trends, and anomalies.  
 This step helps lay the foundation for building accurate machine learning models.
 
 ---
 
-## 📊 Key EDA Steps Performed
+##  Key EDA Steps Performed
 
 1. Summary statistics for all numerical features  
 2. Histograms to visualize distributions  
@@ -23,7 +23,7 @@ This step helps lay the foundation for building accurate machine learning models
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```text
 titanic-eda/
@@ -42,7 +42,12 @@ titanic-eda/
 ├── requirements.txt                      # List of required Python packages
 ├── .gitignore                            # Fi
 
-# Clone the repository
+
+---
+
+##  How to Run Locally
+
+```bash
 git clone https://github.com/tirtha103/titanic-eda.git
 cd titanic-eda
 
@@ -53,5 +58,6 @@ venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Launch JupyterLab
+# Launch the notebook
 jupyter lab notebooks/01_eda_walkthrough.ipynb
+
